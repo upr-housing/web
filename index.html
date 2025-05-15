@@ -1,92 +1,115 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-        <title>UPR Housing</title>
 
-        <link href="styles\style.css" rel="stylesheet">
-    </head>
-    <script>
-        function toggleMenu() {
-          const navLinks = document.getElementById("navLinks");
-          navLinks.classList.toggle("active");
-        }
-      </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPR Housing</title>
+
+    <link href="styles\style.css" rel="stylesheet">
+</head>
+<script>
+    function toggleMenu() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+    }
+</script>
 
 <body>
     <div class="wrapper">
+
         <nav class="navbar">
             <div class="logo">UPR Housing</div>
-          
+
             <ul class="nav-links" id="navLinks">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="members.html">Members</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="members.html">Members</a></li>
             </ul>
-          
+
             <div class="hamburger" onclick="toggleMenu()">☰</div>
         </nav>
-
-        <img class="home-img" src="images/UPR_at_Mayaguez_Seal.svg.png" alt="Home Image">
-
-    <div class="container">
-
-        
- 
-
-
-        <div class="block">
-            <div class="block-header">Who Are We?</div>
-            <p>We are a team of software engineering students at the University of Puerto Rico working to improve the housing search experience for students. 
-                As part of our capstone project, we've designed an application focused on simplifying how students find, post, and communicate about rental opportunities.
+        <section class="about-us">
+            <h2>Who Are We</h2>
+            <p>
+                We are a team of software engineering students at the University of Puerto Rico working to improve the housing search experience for students. 
+                As part of our capstone project, 
+                we've designed an application focused on simplifying how students find, post, and communicate about rental opportunities.
             </p>
 
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
-                Curabitur eget tortor eget justo convallis tincidunt. Donec aliquet dolor ut felis malesuada, 
-                sit amet gravida mi gravida. Fusce id arcu vel purus consectetur varius. Maecenas quis justo nec risus faucibus suscipit. 
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+        </section>
+        <div class="video-container">
+            <iframe width="565" height="315" src="https://www.youtube.com/embed/Riy1r4FRogE?si=VMw12dX9d-KH4Oag"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="container">
+
+
+
+
+            <!-- 
+        <div class="block"> -->
+            <!-- <div class="block-header">Who Are We?</div>
+            <p>We are a team of software engineering students at the University of Puerto Rico working to improve the housing search experience for students. 
+                As part of our capstone project, we've designed an application focused on simplifying how students find, post, and communicate about rental opportunities.
             </p> -->
 
 
-        </div>
+            <!-- </div> -->
+            <div class="info-row">
+                  <div class="info-header">
+                    <img src="images/mission.png" alt="Mission Icon">
 
-        <div class="block">
-            <div class="block-header">Our Mission</div>
-            <p>Our mission is to provide a reliable, easy-to-use application that connects students with available apartments, studios, and shared housing. 
-                We aim to address the issues of housing saturation and the lack of student-focused platforms by offering a space designed specifically to meet the needs of the academic community in Puerto Rico. 
-                This version of the application will be focused on Mayagüez, allowing us to gather user feedback and build a strong foundation for future expansion across the island.
-            </p>
+                <h2>Mission</h2>
+                </div>
 
-            <p>Main Objectives:
+
+                <div class="block">
+                    <!-- <div class="block-header">Mission</div> -->
+                    <p>Our mission is to provide a reliable, easy-to-use application that connects students with
+                        available apartments, studios, and shared housing.
+                        We aim to address the issues of housing saturation and the lack of student-focused platforms by
+                        offering a space designed specifically to meet the needs of the academic community in Puerto
+                        Rico.
+                        This version of the application will be focused on Mayagüez, allowing us to gather user feedback
+                        and build a strong foundation for future expansion across the island.
+                    </p>
+
+                    <!-- <p>Main Objectives:
             
             </p>
             <ul>
                 <li>Allow students to search for nearby rentals</li>
                 <li>Facilitate communication between renters and owners</li>
                 <li>Make listing a property simple and user-friendly</li>
-            </ul>
+            </ul> -->
+                </div>
+            </div>
+            <div class="info-row">
+                <div class = "info-header">
+                    <img src="images/vision.png" alt="Vision Icon">
+                     <h2> Vision </h2>
 
-
-        </div>
-
-        <div class="block">
-            <div class="block-header">Our Vision</div>
-            <p>We envision a future where students across Puerto Rico can find housing quickly, affordably, and without stress. 
-                By focusing on user needs and leveraging mobile technology, we aim to create a lasting tool that supports academic success and student well-being.
-            </p>
-
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
-                Curabitur eget tortor eget justo convallis tincidunt. Donec aliquet dolor ut felis malesuada, 
-                sit amet gravida mi gravida. Fusce id arcu vel purus consectetur varius. Maecenas quis justo nec risus faucibus suscipit. 
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
-            </p> -->
-
-
+                </div>
+                <div class="block">
+                    <!-- <div class="block-header">Vision</div> -->
+                    <p>We envision a future where students across Puerto Rico can find housing quickly, affordably, and
+                        without stress.
+                        By focusing on user needs and leveraging mobile technology, we aim to create a lasting tool that
+                        supports academic success and student well-being.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
+    <footer class="text-center">
+        <p>Copyright &copy; 2025 UPR Housing </p>
 
-        
+    </footer>
+
 
 </body>
+
 </html>
