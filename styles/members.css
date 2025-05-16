@@ -187,3 +187,12 @@ p {
   display: block;
   margin: 0 auto 10px auto;
 }
+
+footer {
+  background-color: #4CAF50;
+  padding: 20px;
+}
+
+footer p {
+  text-align: center;
+}
