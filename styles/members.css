@@ -32,6 +32,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+footer {
+  background-color: #4CAF50;
+  padding: 20px;
+}
+
+footer p {
+  text-align: center;
+}
 
 .nav-links.active {
   display: flex;
